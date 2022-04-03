@@ -1,9 +1,10 @@
 import "./App.css";
+import Hero from "./components/Hero/main";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-2xl font-Roboto">Lets go!!!</h1>
+      <Hero />
     </div>
   );
 }
