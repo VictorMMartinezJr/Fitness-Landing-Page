@@ -5,14 +5,14 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="navbar h-[6vh] flex justify-between items-center w-full px-2 relative font-Roboto text-white bg-lightBlack">
+    <div className="navbar h-[6vh] flex justify-between items-center w-full px-3 relative font-Roboto text-white bg-lightBlack">
       <h1 className="text-xl italic tracking-wide font-bold">ZA Sport</h1>
       <HiMenuAlt3
         onClick={() => setShowNav(!showNav)}
         className="cursor-pointer text-2xl"
       />
       <ul
-        className={`absolute w-[100%] right-0 top-[100%] flex flex-col items-end  transform ${
+        className={`absolute w-[100%] right-0 top-[100%] flex flex-col items-end pr-3 transform ${
           showNav ? "translate-x-[0]" : " translate-x-[100%]"
         } transition-transform bg-lightBlack text-white`}
       >

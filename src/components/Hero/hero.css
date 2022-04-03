@@ -1,7 +1,7 @@
-.main::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+.main {
+  background: url("../../assets/main-bg.jpg");
+  background-color: rgba(0, 0, 0, 0.6); /* Tint color */
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
 }
