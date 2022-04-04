@@ -7,6 +7,7 @@ module.exports = {
       },
       colors: {
         lightBlack: "rgba(0, 0, 0, .8)",
+        myYellow: "#FFBD35",
       },
       backgroundImage: {
         main: "url('../assets/main-wallpaper.jpg)",
