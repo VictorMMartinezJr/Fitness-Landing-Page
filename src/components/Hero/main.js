@@ -5,14 +5,14 @@ const Hero = () => {
   return (
     <div className="main h-[100vh] flex flex-col overflow-x-hidden font-Roboto font-normal">
       <Navbar />
-      <div className="flex-1 flex flex-col justify-center items-center text-white">
-        <h1 className="text-4xl mb-6">
+      <div className="flex-1 flex flex-col justify-center items-center text-white lg:items-start lg:ml-20">
+        <h1 className="text-4xl mb-6 lg:text-5xl">
           Trial training with
           <br />a coach <span className="font-bold">for free</span>
         </h1>
         <a
           href="#"
-          className="bg-myYellow py-2 px-5 rounded-full shadow-2xl shadow-myYellow font-bold"
+          className="bg-myYellow py-2 px-5 rounded-full shadow-2xl shadow-myYellow font-bold lg:py-3 lg:px-10"
         >
           GET STARTED
         </a>
