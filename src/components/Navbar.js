@@ -19,8 +19,8 @@ const Navbar = () => {
         } transition-transform bg-lightBlack text-white lg:static lg:flex-row lg:justify-end lg:items-center lg:translate-x-0 lg:w-auto`}
       >
         <li className="my-4 lg:my-0 mr-10 lg:p-4">About Us</li>
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">Membership</li>
         <li className="my-4 lg:my-0 mr-10 lg:p-4">Services</li>
+        <li className="my-4 lg:my-0 mr-10 lg:p-4">Memberships</li>
         <li className="my-4 lg:my-0 mr-10 lg:p-4">Gallery</li>
         <li className="my-4 lg:my-0 mr-10 lg:p-4">Reviews</li>
       </ul>
