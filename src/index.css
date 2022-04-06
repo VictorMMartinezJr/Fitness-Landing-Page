@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+.sub-header {
+  @apply text-3xl font-bold tracking-wide mt-8 mb-4 lg:text-4xl text-white;
+}
+.myoutline {
+  @apply outline outline-1 outline-white;
+}
 @tailwind utilities;

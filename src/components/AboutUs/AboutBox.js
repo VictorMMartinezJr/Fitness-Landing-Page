@@ -1,7 +1,7 @@
 const AboutBox = ({ img, h1, description }) => {
   return (
     <div
-      className="w-[90%] my-4 flex flex-col justify-center items-center rounded-2xl sm:flex-row"
+      className="w-[90%] mb-6 flex flex-col justify-center items-center rounded-2xl sm:flex-row"
       style={{ boxShadow: "inset 0 0px 30px #FFBD35" }}
     >
       <img
