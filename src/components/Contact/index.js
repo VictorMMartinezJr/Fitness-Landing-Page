@@ -6,9 +6,9 @@ import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section className="bg-black flex flex-col justify-center items-center font-Roboto text-white">
+    <section className="bg-black flex flex-col justify-center items-center font-Roboto text-white" id="contact">
       <h1 className="sub-header">Contact</h1>
-      <div className="grid grid-cols-1 justify-items-center grid-rows-2 w-[90%] lg:grid-cols-3 lg:grid-rows-1 lg:justify-between xl:w-[70%] 2xl:w-[65%]">
+      <div className="grid grid-cols-1 justify-items-center grid-rows-2 w-[90%] mb-8 lg:grid-cols-3 lg:grid-rows-1 lg:justify-between xl:w-[70%] 2xl:w-[65%]">
         <div
           className="form-container w-[80%] mb-6 flex flex-col justify-center items-center rounded-2xl text-white font-Roboto lg:w-[95%] lg:mr-4"
           style={{ boxShadow: "inset 0 0px 30px #FFBD35" }}
@@ -57,8 +57,7 @@ const Contact = () => {
                 <p className="font-bold text-lg">Address</p>
               </span>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae, asperiores.
+                737 La Sierra Dr. East Elmhurst, NY 11370
               </p>
             </li>
             {/* Phone */}

@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero/main";
 import Memberships from "./components/Memberships";
@@ -15,6 +16,7 @@ function App() {
       <Memberships />
       <Gallery />
       <Contact />
+      <Footer />
     </div>
   );
 }

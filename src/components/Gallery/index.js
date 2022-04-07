@@ -6,9 +6,13 @@ import pushup from "../../assets/pushup.webp";
 import rougePlate from "../../assets/rouge.webp";
 import highFive from "../../assets/clap.webp";
 import deadlift from "../../assets/deadlift.jpeg";
+
 const Gallery = () => {
   return (
-    <section className="hidden lg:bg-black lg:flex lg:flex-col lg:justify-center lg:items-center">
+    <section
+      className="hidden lg:bg-black lg:flex lg:flex-col lg:justify-center lg:items-center"
+      id="gallery"
+    >
       <h1 className="sub-header">Gallery</h1>
       <div className="h-[60vh] grid w-[90%] mx-auto grid-cols-4 grid-rows-3 gap-2 mt-2 mb-6 xl:w-[70%] 2xl:w-[65%]">
         <span

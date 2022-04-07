@@ -18,11 +18,31 @@ const Navbar = () => {
           showNav ? "translate-x-[0]" : " translate-x-[100%]"
         } transition-transform bg-lightBlack text-white lg:static lg:flex-row lg:justify-end lg:items-center lg:translate-x-0 lg:w-auto`}
       >
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">About Us</li>
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">Services</li>
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">Memberships</li>
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">Gallery</li>
-        <li className="my-4 lg:my-0 mr-10 lg:p-4">Reviews</li>
+        <li className="my-4 lg:my-0 mr-10 lg:p-4">
+          <a href="#aboutus" className="no-underline">
+            About Us
+          </a>
+        </li>
+        <li className="my-4 lg:my-0 mr-10 lg:p-4">
+          <a href="#services" className="no-underline">
+            Services
+          </a>
+        </li>
+        <li className="my-4 lg:my-0 mr-10 lg:p-4">
+          <a href="#memberships" className="no-underline">
+            Memberships
+          </a>
+        </li>
+        <li className="hidden lg:block my-4 lg:my-0 mr-10 lg:p-4">
+          <a href="#gallery" className="no-underline">
+            Gallery
+          </a>
+        </li>
+        <li className="my-4 lg:my-0 mr-10 lg:p-4">
+          <a href="#contact" className="no-underline">
+            Contact
+          </a>
+        </li>
       </ul>
     </div>
   );
