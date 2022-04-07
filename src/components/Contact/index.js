@@ -6,7 +6,10 @@ import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section className="bg-black flex flex-col justify-center items-center font-Roboto text-white" id="contact">
+    <section
+      className="bg-black flex flex-col justify-center items-center font-Roboto text-white"
+      id="contact"
+    >
       <h1 className="sub-header">Contact</h1>
       <div className="grid grid-cols-1 justify-items-center grid-rows-2 w-[90%] mb-8 lg:grid-cols-3 lg:grid-rows-1 lg:justify-between xl:w-[70%] 2xl:w-[65%]">
         <div
@@ -39,6 +42,7 @@ const Contact = () => {
             Send Message
           </button>
         </div>
+        {/* Map image */}
         <div
           className="w-[80%] mb-8 relative lg:mb-6 myoutline rounded-2xl lg:w-full"
           style={{ backgroundImage: `url(${map})` }}
@@ -48,7 +52,8 @@ const Contact = () => {
             style={{ filter: "drop-shadow(0 0 2px #000)" }}
           />
         </div>
-        <div className="contact-links left w-[80%] lg:w-[95%] lg:ml-4">
+        {/* Contact info */}
+        <div className="w-[80%] lg:w-[95%] lg:ml-4">
           <ul>
             {/* Address */}
             <li className="mb-4">
