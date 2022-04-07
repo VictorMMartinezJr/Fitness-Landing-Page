@@ -10,7 +10,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="navbar h-[6vh] flex justify-between items-center w-full px-3 relative font-Roboto text-white bg-lightBlack lg:px-0 lg:h-[10vh]">
+    <nav className="navbar h-[6vh] flex justify-between items-center w-full px-3 relative font-Roboto text-white bg-lightBlack lg:px-0 lg:h-[10vh]">
       <h1 className="text-xl italic tracking-wide font-bold lg:ml-10 lg:text-2xl 2xl:text-4xl">
         ZA Sport
       </h1>
@@ -49,7 +49,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
