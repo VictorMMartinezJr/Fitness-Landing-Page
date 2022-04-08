@@ -14,6 +14,7 @@ const AboutUs = () => {
             <AboutBox
               key={data.id}
               img={data.img}
+              alt={data.alt}
               h1={data.title}
               description={data.description}
             />

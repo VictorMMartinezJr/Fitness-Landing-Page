@@ -12,8 +12,8 @@ const Hero = () => {
         </h1>
         <a
           href="#"
-          className="bg-myYellow py-2 px-5 rounded-full font-bold lg:py-3 lg:px-10"
-          style={{ boxShadow: "0 0 15px #FFBD35" }}
+          className="bg-myBlue py-2 px-5 rounded-full font-bold lg:py-3 lg:px-10 btn"
+          style={{ boxShadow: "0 0 15px #3075d6" }}
         >
           GET STARTED
         </a>

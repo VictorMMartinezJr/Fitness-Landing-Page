@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 justify-items-center grid-rows-2 w-[90%] mb-8 lg:grid-cols-3 lg:grid-rows-1 lg:justify-between xl:w-[70%] 2xl:w-[65%]">
         <div
           className="form-container w-[80%] mb-6 flex flex-col justify-center items-center rounded-2xl text-white font-Roboto lg:w-[95%] lg:mr-4"
-          style={{ boxShadow: "inset 0 0px 30px #FFBD35" }}
+          style={{ boxShadow: "inset 0 0px 30px #3075d6" }}
         >
           <h1 className="font-bold my-8 text-2xl">Contact Us</h1>
           {/* form */}
@@ -22,22 +22,22 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Email"
-              className="w-full py-2 pl-1 rounded-2xl bg-gray-200"
+              className="w-full py-2 pl-1 rounded-2xl bg-white"
             />
             <input
               type="text"
               placeholder="Phone"
-              className="w-full my-4 py-2 pl-1 rounded-2xl bg-gray-200"
+              className="w-full my-4 py-2 pl-1 rounded-2xl bg-white"
             />
             <textarea
               type="text"
               placeholder="Message"
-              className="w-full py-2 pl-1 rounded-2xl bg-gray-200"
+              className="w-full py-2 pl-1 rounded-2xl bg-white"
             />
           </form>
           <button
-            className="bg-myYellow py-3 px-12 rounded-full mt-4 mb-8 w-[80%] font-bold lg:py-2"
-            style={{ boxShadow: "0 0 15px #FFBD35" }}
+            className="bg-myBlue py-3 px-12 rounded-full mt-4 mb-8 w-[80%] font-bold lg:py-2"
+            style={{ boxShadow: "0 0 15px #3075d6" }}
           >
             Send Message
           </button>

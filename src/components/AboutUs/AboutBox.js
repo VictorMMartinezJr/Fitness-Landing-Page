@@ -1,11 +1,12 @@
-const AboutBox = ({ img, h1, description }) => {
+const AboutBox = ({ img, alt, h1, description }) => {
   return (
     <div
       className="w-[90%] mb-6 flex flex-col justify-center items-center rounded-2xl sm:flex-row"
-      style={{ boxShadow: "inset 0 0px 30px #FFBD35" }}
+      style={{ boxShadow: "inset 0 0px 30px #3075d6" }}
     >
       <img
         src={img}
+        alt={alt}
         className="mt-5 h-14 sm:mx-8"
         style={{ filter: "drop-shadow(0 0 10px #fff)" }}
       />
