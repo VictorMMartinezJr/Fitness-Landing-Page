@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
         {/* Map image */}
         <div
-          className="w-[80%] mb-8 relative lg:mb-6 myoutline rounded-2xl lg:w-full"
+          className="w-[80%] mb-8 relative lg:mb-6 rounded-2xl lg:w-full"
           style={{ backgroundImage: `url(${map})` }}
         >
           <FaMapMarkerAlt
