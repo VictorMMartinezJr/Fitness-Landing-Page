@@ -13,7 +13,7 @@ const Contact = () => {
       <h1 className="sub-header">Contact</h1>
       <div className="grid grid-cols-1 justify-items-center grid-rows-2 w-[90%] mb-8 lg:grid-cols-3 lg:grid-rows-1 lg:justify-between xl:w-[70%] 2xl:w-[65%]">
         <div
-          className="form-container w-[80%] mb-6 flex flex-col justify-center items-center rounded-2xl text-white font-Roboto lg:w-[95%] lg:mr-4"
+          className="form-container w-[90%] mb-6 flex flex-col justify-center items-center rounded-2xl text-white font-Roboto lg:w-[95%] lg:mr-4"
           style={{ boxShadow: "inset 0 0px 30px #3075d6" }}
         >
           <h1 className="font-bold my-8 text-2xl">Contact Us</h1>
@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
         {/* Map image */}
         <div
-          className="w-[80%] mb-8 relative lg:mb-6 rounded-2xl lg:w-full"
+          className="w-[90%] mb-8 relative lg:mb-6 rounded-2xl lg:w-full"
           style={{ backgroundImage: `url(${map})` }}
         >
           <FaMapMarkerAlt
